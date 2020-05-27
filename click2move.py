@@ -37,14 +37,14 @@ def Statistic_para(list):
     return final_fea
 
 if __name__ == '__main__':
-    path = r'F:\\paper\\data\\bot\\login\\'
+    path = "D:\data\pc"
     users=os.listdir(path)
     feature  =[]
     for user in users:
-        timepath= path+user+'\\'
+        timepath= path+user+os.sep
         timelist=os.listdir(timepath)
         for time in timelist:
-            txtpath=timepath+time+'\\'
+            txtpath=timepath+time+os.sep
             txtlist=os.listdir(txtpath)
             for txt in txtlist:
                 finallist=txtpath+txt

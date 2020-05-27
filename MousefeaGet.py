@@ -1,5 +1,6 @@
 # # -*- coding: utf-8 -*-
 #
+
 import numpy
 
 import CalFeature
@@ -10,17 +11,47 @@ import FileOpBot
 def HumanSectionData(FilePath):
     AllUsers, AllNames = FileOp.ReadDataFromTextFile(FilePath)
     HumanData = []
-    HumanNames = []
+    label_level = []
     for i in range(len(AllUsers)):  # 将Alluser多层变为一层[[],...[]]到[]
         HumanData.extend(AllUsers[i])  # 注意extend和append区别
-        HumanNames.extend(AllNames[i])
+        label_level.extend(AllNames[i])
+    data,label=data_seg(HumanData)
     HumanOperating, HumanOpType = CalFeature.DataFormation(HumanData)
     idchosen = numpy.where(HumanOpType == 2)[0]  # np.where()
     HumanOperatingChosen = [HumanOperating[x] for x in idchosen]  # 链式推导式，n*n*4 ,list
-    HumanNamesChosen = [HumanNames[x] for x in idchosen]  # 选择符合键鼠完整数据的矩阵
-    SectionDataHuman = CalFeature.SectionProc1(HumanOperatingChosen)  # 通过mouseup将移动分段,返回一个多个n*4组成的矩阵
+    HumanNamesChosen = [label_level[x] for x in idchosen]  # 选择符合键鼠完整数据的矩阵
+    SectionDataHuman = CalFeature.SectionProc1(HumanOperating)  # 通过mouseup将移动分段,返回一个多个n*4组成的矩阵
     SectionData = CalFeaFromSectionData(SectionDataHuman)
     return SectionData, HumanNamesChosen
+
+
+def data_seg(file_data):
+    all_data = []
+    all_labels = []
+    it = iter(file_data)
+    for data in it:
+        tmp_data = []
+        cnt = 0
+        for line in data:
+            if line.startswith("mouse"):
+                tmp_data.append(line)
+                while cnt <= 4:
+                    tmp_line = line.split()
+                    if cnt == 0:
+                        start = tmp_line[3]
+                    if cnt < 4:
+                        cnt += 1
+                    if cnt == 4:
+                        end = tmp_line[3]
+                    if len(tmp_line) > 4:
+                        cnt += 1
+
+            cnt = 0
+            label = end - start
+            all_data.append(tmp_data)
+            tmp_data = []
+            all_labels.append(label)
+    return all_data, all_labels
 
 
 def calExtraFea(inputData):
