@@ -16,13 +16,13 @@ def HumanSectionData(FilePath):
         HumanData.extend(AllUsers[i])  # 注意extend和append区别
         label_level.extend(AllNames[i])
     data, label = data_seg(HumanData)
-    HumanOperating, HumanOpType = CalFeature.DataFormation(HumanData)
+    HumanOperating, HumanOpType = CalFeature.DataFormation(data)
     idchosen = numpy.where(HumanOpType == 2)[0]  # np.where()
-    HumanOperatingChosen = [HumanOperating[x] for x in idchosen]  # 链式推导式，n*n*4 ,list
-    HumanNamesChosen = [label_level[x] for x in idchosen]  # 选择符合键鼠完整数据的矩阵
+    # HumanOperatingChosen = [HumanOperating[x] for x in idchosen]  # 链式推导式，n*n*4 ,list
+    # HumanNamesChosen = [label_level[x] for x in idchosen]  # 选择符合键鼠完整数据的矩阵
     SectionDataHuman = CalFeature.SectionProc1(HumanOperating)  # 通过mouseup将移动分段,返回一个多个n*4组成的矩阵
     SectionData = CalFeaFromSectionData(SectionDataHuman)
-    return SectionData, HumanNamesChosen
+    return SectionData, label
 
 
 def data_seg(file_data):
