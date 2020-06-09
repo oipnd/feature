@@ -5,7 +5,7 @@ keycode 为 按键代号
 """
 print(__doc__)
 
-import feaEx
+from cal_feature import feaEx
 import os
 
 def featureGet(modetype,path):

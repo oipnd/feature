@@ -5,10 +5,10 @@ Created on Sat Dec 03 20:53:21 2016
 @author: Administrator
 """
 
-import feaEx
-import click2move
+from cal_feature import feaEx
 import os
-import numpy as np
+
+
 def getKeyDown_Up(keyDown_Up,key_dd,key_uu,key_ud,keyUpList,keyDownList):
     flag=0
     for i in range(len(keyDownList)):
@@ -184,9 +184,9 @@ def BotFeaFinal(modetype,ori_path):
         key_dd_trans = dict2list(key_dd)
         key_ud_trans = dict2list(key_ud)
 
-        keyholdfea=feaEx.featureEx(keyholdtime)
-        keyinterfea=feaEx.featureEx(keydown_up)
-        key_uu_fea =feaEx.featureEx(key_uu_trans)
+        keyholdfea= feaEx.featureEx(keyholdtime)
+        keyinterfea= feaEx.featureEx(keydown_up)
+        key_uu_fea = feaEx.featureEx(key_uu_trans)
         key_dd_fea = feaEx.featureEx(key_dd_trans)
         key_ud_fea = feaEx.featureEx(key_ud_trans)
 

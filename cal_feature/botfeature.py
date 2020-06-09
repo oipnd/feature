@@ -1,8 +1,6 @@
-import MousefeaGet
+from cal_feature import MousefeaGet, click2move, feaGet
 import numpy
-import feaGet
 import os
-import click2move
 import scipy.io as sio
 # BotDataPath= r'F:\\paper\\data\\bot\\login\\rawbotdata\\weiang1231\\' # 机器数据必须到txt文件之前
 modetype = 'login'
@@ -11,10 +9,10 @@ path = r'F:\paper_old\data\bot\login\rawbotdata\\'
 userlist = os.listdir(path)
 for user in userlist:
     Botdatapath = path +user + '\\'
-    ListKeyFeaBot,ListKeyFeaBotNames = feaGet.BotFeaFinal(modetype,Botdatapath)
+    ListKeyFeaBot,ListKeyFeaBotNames = feaGet.BotFeaFinal(modetype, Botdatapath)
     KeyFeaBot = numpy.array(ListKeyFeaBot)
     KeyFeaBotNames = numpy.array(ListKeyFeaBotNames)
-    MouseFeaBot,ListMouseFeaBotNames = MousefeaGet.BotSectionData(modetype,Botdatapath)
+    MouseFeaBot,ListMouseFeaBotNames = MousefeaGet.BotSectionData(modetype, Botdatapath)
     MouseFeaBotNames = numpy.array(ListMouseFeaBotNames)
     botfea = list(numpy.concatenate([MouseFeaBot,KeyFeaBot],axis= 1))
     # print(botfea)
@@ -37,7 +35,7 @@ for user in users:
     for txt in txtlist:
         finallist=txtpath+txt
         time,time1,time2= click2move.click2tomove(finallist)
-        fea_fusion = click2move.Statistic_para(time) + click2move.Statistic_para(time1)+click2move.Statistic_para(time2)
+        fea_fusion = click2move.Statistic_para(time) + click2move.Statistic_para(time1) + click2move.Statistic_para(time2)
         fea = numpy.array(feature.append(fea_fusion))
 final = numpy.array(feature)
 #

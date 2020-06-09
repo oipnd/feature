@@ -4,7 +4,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 
-from MousefeaGet import HumanSectionData
+from cal_feature.MousefeaGet import HumanSectionData
 import warnings
 
 def prepro(raw_feature, raw_labels):
@@ -45,5 +45,6 @@ if __name__ == '__main__':
     path='D:\data\pc'
     raw_fea,raw_label=HumanSectionData(path)
     fea,label=prepro(raw_fea,raw_label)
-    classify(fea,label)
+    print(fea.dtype)
+    print(label)
 

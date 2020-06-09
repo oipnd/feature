@@ -340,7 +340,14 @@ def DataFormation(AllData):
             else:
                 txtcont[line, 1] = tmp[2]
                 txtcont[line, 2] = tmp[3]
-                txtcont[line, 3] = int(tmp[4][-8:]) - timeFirst
+                try:
+
+                    txtcont[line, 3] = int(tmp[4][-8:]) - timeFirst
+                except BaseException:
+                    txtcont[line, 3] = 0
+                else:
+                    txtcont[line, 3] = 0
+                # txtcont[line, 3] = int(tmp[4][-8:]) - timeFirst
         DownIn = txtcont[txtcont[:, 0] == 0, :]
         UpIn = txtcont[txtcont[:, 0] == 1, :]
         Dcnt = DownIn.shape[0]

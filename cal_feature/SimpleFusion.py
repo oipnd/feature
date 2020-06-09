@@ -1,11 +1,8 @@
 # -*- coding: utf-8 -*-
 '''融合生成人的特征数据，注意工作目录,将人的特征保存为mat格式'''
 
-import MousefeaGet
-import FileOp
+from cal_feature import MousefeaGet, click2move, FileOp, feaGet
 import numpy
-import feaGet
-import click2move
 import os
 import scipy.io as scio
 
@@ -13,7 +10,7 @@ HumDataPath=" "
 # #python脚本复杂轨迹按键时间gauss
 FileOp.RenameFileWithSessions(HumDataPath)#将txt文件重命名为_1_1格式
 ##################### 击键特征
-ListKeyFeaHuman,ListKeyFeaHumanNames = feaGet.HumFeaFinal(modetype,HumDataPath)
+ListKeyFeaHuman,ListKeyFeaHumanNames = feaGet.HumFeaFinal(modetype, HumDataPath)
 KeyFeaHuman = numpy.array(ListKeyFeaHuman)
 KeyFeaHumanNames = numpy.array(ListKeyFeaHumanNames)
 print(ListKeyFeaHumanNames)
@@ -63,7 +60,7 @@ for user in users:
        for txt in txtlist:
            finallist=txtpath+txt
            time,time1,time2 = click2move.click2tomove(finallist)
-           fea_fusion =click2move.Statistic_para(time) + click2move.Statistic_para(time1)+click2move.Statistic_para(time2)
+           fea_fusion = click2move.Statistic_para(time) + click2move.Statistic_para(time1) + click2move.Statistic_para(time2)
            feature.append(fea_fusion)
            namelist.append(txt)
 final = numpy.array(feature)

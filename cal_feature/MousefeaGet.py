@@ -3,9 +3,7 @@
 
 import numpy
 
-import CalFeature
-import FileOp
-import FileOpBot
+from cal_feature import FileOp, FileOpBot, CalFeature
 
 
 def HumanSectionData(FilePath):
@@ -268,6 +266,7 @@ def how(listType, t, n, m):
 
 if __name__ == '__main__':
     a, b = HumanSectionData("D:\data\pc")
+
     print(a)
     print(b)
     print(len(a))
