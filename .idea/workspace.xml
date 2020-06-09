@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aba5c3c9-3360-40e6-9c6a-cb4cc144ebeb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classification/kNN_al.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fcm/fcm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ifa/fa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ifa/ifa.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/33.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/33.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalFeature.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/CalFeature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileOp.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/FileOp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileOpBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/FileOpBot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MousefeaGet.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/MousefeaGet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleFusion.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/SimpleFusion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attention_level_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/attention_level_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot_gau.mat" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/bot_gau.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botfeature.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/botfeature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/click2move.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/click2move.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dd.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/dd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fake.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/fake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feaEx.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/feaEx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feaGet.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/feaGet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyFea.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/keyFea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mouse_entrop.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/mouse_entrop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/txt_rename.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/txt_rename.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +49,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cal_feature/txt_rename.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cal_feature/attention_level_main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -81,27 +61,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cal_feature/bot_gau.mat">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cal_feature/feaGet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3933" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classification/kNN_al.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state relative-caret-position="-897">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ifa/fa.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fcm/fcm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2208">
+              <caret line="96" column="29" lean-forward="true" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ifa/ifa.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -167,10 +161,13 @@
         <option value="$PROJECT_DIR$/cal_feature/MousefeaGet.py" />
         <option value="$PROJECT_DIR$/cal_feature/CalFeature.py" />
         <option value="$PROJECT_DIR$/classification/kNN_al.py" />
+        <option value="$PROJECT_DIR$/ifa/fa.py" />
+        <option value="$PROJECT_DIR$/ifa/ifa.py" />
+        <option value="$PROJECT_DIR$/fcm/fcm.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="315" />
     <option name="y" value="65" />
     <option name="width" value="1394" />
@@ -196,12 +193,17 @@
             <path>
               <item name="feature" type="b2602c69:ProjectViewProjectNode" />
               <item name="feature" type="462c0819:PsiDirectoryNode" />
-              <item name="cal_feature" type="462c0819:PsiDirectoryNode" />
+              <item name="classification" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="feature" type="b2602c69:ProjectViewProjectNode" />
               <item name="feature" type="462c0819:PsiDirectoryNode" />
-              <item name="classification" type="462c0819:PsiDirectoryNode" />
+              <item name="fcm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="ifa" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,7 +221,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MouseDynamics-master (1)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../feature_selection_GAAlgorithm-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -242,29 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kNN_al">
-    <configuration name="AppDynamicsJob" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="feature" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AppDynamicsJob.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.fcm">
     <configuration name="MousefeaGet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="feature" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,20 +305,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fake" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="feature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ifa" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\lanoipd\Desktop\feature\cal_feature\fake.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ifa/fa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fcm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="feature" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fcm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fcm/fcm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,11 +364,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fcm" />
+        <item itemvalue="Python.fa" />
         <item itemvalue="Python.kNN_al" />
         <item itemvalue="Python.MousefeaGet" />
         <item itemvalue="Python.attention_level_main (1)" />
-        <item itemvalue="Python.AppDynamicsJob" />
-        <item itemvalue="Python.fake" />
       </list>
     </recent_temporary>
   </component>
@@ -411,17 +407,18 @@
       <workItem from="1590594176747" duration="1911000" />
       <workItem from="1590633877739" duration="9948000" />
       <workItem from="1591103956331" duration="9791000" />
-      <workItem from="1591683562561" duration="9065000" />
+      <workItem from="1591683562561" duration="12429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28804000" />
+    <option name="totallyTimeSpent" value="32168000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17034179" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17034179" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -436,7 +433,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32848233" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32952183" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32952183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -648,13 +645,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ifa/ifa.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ifa/fa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classification/kNN_al.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="-897">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fcm/fcm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2208">
+          <caret line="96" column="29" lean-forward="true" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
         </state>
       </provider>
     </entry>
