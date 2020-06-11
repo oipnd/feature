@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aba5c3c9-3360-40e6-9c6a-cb4cc144ebeb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fcm/fcm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ifa/fa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ifa/ifa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/feature.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/feature.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal_feature/MousefeaGet.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_feature/MousefeaGet.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,108 +26,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cal_feature/MousefeaGet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="85" column="52" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
-              <folding>
-                <element signature="e#29#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cal_feature/keyFea.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-828" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cal_feature/attention_level_main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classification/kNN_al.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-897">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ifa/fa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fcm/fcm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2208">
-              <caret line="96" column="29" lean-forward="true" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ifa/ifa.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cal_feature/botfeature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cal_feature/CalFeature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="299" column="4" selection-start-line="299" selection-start-column="4" selection-end-line="299" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/sklearn/utils/validation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -136,36 +33,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>txt</find>
-      <find>feaMovementEfficiency</find>
-      <find>feaRatioStrai</find>
-      <find>feaRatioStra</find>
-      <find>CalCurvature</find>
-      <find>keyFg</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/MousefeaGet.py" />
-        <option value="$PROJECT_DIR$/attention_level_main.py" />
-        <option value="$PROJECT_DIR$/fake.py" />
-        <option value="$PROJECT_DIR$/../AppDynamicsJob.py" />
-        <option value="$PROJECT_DIR$/classification/KNN.py" />
-        <option value="$PROJECT_DIR$/cal_feature/attention_level_main.py" />
-        <option value="$PROJECT_DIR$/cal_feature/MousefeaGet.py" />
-        <option value="$PROJECT_DIR$/cal_feature/CalFeature.py" />
-        <option value="$PROJECT_DIR$/classification/kNN_al.py" />
-        <option value="$PROJECT_DIR$/ifa/fa.py" />
-        <option value="$PROJECT_DIR$/ifa/ifa.py" />
-        <option value="$PROJECT_DIR$/fcm/fcm.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="315" />
@@ -176,40 +45,6 @@
   <component name="ProjectId" id="1WZbN5hRfqd52LNs8jYhMiXzu0I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="feature" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feature" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feature" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feature" type="462c0819:PsiDirectoryNode" />
-              <item name="classification" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feature" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feature" type="462c0819:PsiDirectoryNode" />
-              <item name="fcm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feature" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feature" type="462c0819:PsiDirectoryNode" />
-              <item name="ifa" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -222,6 +57,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../feature_selection_GAAlgorithm-master" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -232,19 +68,26 @@
       <recent name="F:\pycharm\feature" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.fcm">
+  <component name="RunManager" selected="Python.MousefeaGet">
+    <configuration name="FileOp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="feature" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cal_feature" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cal_feature/FileOp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MousefeaGet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="feature" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,29 +129,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="attention_level_main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="feature" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cal_feature" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cal_feature/attention_level_main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="fa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="feature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ifa" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -328,6 +155,9 @@
       <module name="feature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fcm" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -347,6 +177,9 @@
       <module name="feature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classification" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -364,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MousefeaGet" />
+        <item itemvalue="Python.FileOp" />
         <item itemvalue="Python.fcm" />
         <item itemvalue="Python.fa" />
         <item itemvalue="Python.kNN_al" />
-        <item itemvalue="Python.MousefeaGet" />
-        <item itemvalue="Python.attention_level_main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -408,87 +241,68 @@
       <workItem from="1590633877739" duration="9948000" />
       <workItem from="1591103956331" duration="9791000" />
       <workItem from="1591683562561" duration="12429000" />
+      <workItem from="1591777510582" duration="3137000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32168000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17034179" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38773388" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32848233" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32952183" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49690402" weight="0.3296582" />
-      <window_info anchor="right" x="0" y="0" width="418" height="896" id="Documentation" order="4" sideWeight="0.503096" side_tool="true" weight="0.3296582" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.49690402" weight="0.3296582" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="373" y="183" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582271705404">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="373" y="183" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760@0.0.1280.760" timestamp="1582271705404" />
-    <state width="1166" height="209" key="GridCell.Tab.0.bottom" timestamp="1590599880305">
+    <state x="456" y="141" key="FileChooserDialogImpl" timestamp="1591777533294">
       <screen x="72" y="0" width="1208" height="800" />
     </state>
-    <state width="1166" height="209" key="GridCell.Tab.0.bottom/72.0.1208.800@72.0.1208.800" timestamp="1590599880305" />
-    <state width="1166" height="209" key="GridCell.Tab.0.center" timestamp="1590599880305">
+    <state x="456" y="141" key="FileChooserDialogImpl/72.0.1208.800@72.0.1208.800" timestamp="1591777533294" />
+    <state width="1166" height="243" key="GridCell.Tab.0.bottom" timestamp="1591879825613">
       <screen x="72" y="0" width="1208" height="800" />
     </state>
-    <state width="1166" height="209" key="GridCell.Tab.0.center/72.0.1208.800@72.0.1208.800" timestamp="1590599880305" />
-    <state width="1166" height="209" key="GridCell.Tab.0.left" timestamp="1590599880305">
+    <state width="1166" height="243" key="GridCell.Tab.0.bottom/72.0.1208.800@72.0.1208.800" timestamp="1591879825613" />
+    <state width="1166" height="243" key="GridCell.Tab.0.center" timestamp="1591879825612">
       <screen x="72" y="0" width="1208" height="800" />
     </state>
-    <state width="1166" height="209" key="GridCell.Tab.0.left/72.0.1208.800@72.0.1208.800" timestamp="1590599880305" />
-    <state width="1166" height="209" key="GridCell.Tab.0.right" timestamp="1590599880305">
+    <state width="1166" height="243" key="GridCell.Tab.0.center/72.0.1208.800@72.0.1208.800" timestamp="1591879825612" />
+    <state width="1166" height="243" key="GridCell.Tab.0.left" timestamp="1591879825612">
       <screen x="72" y="0" width="1208" height="800" />
     </state>
-    <state width="1166" height="209" key="GridCell.Tab.0.right/72.0.1208.800@72.0.1208.800" timestamp="1590599880305" />
-    <state width="1166" height="209" key="GridCell.Tab.1.bottom" timestamp="1590599880199">
+    <state width="1166" height="243" key="GridCell.Tab.0.left/72.0.1208.800@72.0.1208.800" timestamp="1591879825612" />
+    <state width="1166" height="243" key="GridCell.Tab.0.right" timestamp="1591879825613">
       <screen x="72" y="0" width="1208" height="800" />
     </state>
-    <state width="1166" height="209" key="GridCell.Tab.1.bottom/72.0.1208.800@72.0.1208.800" timestamp="1590599880199" />
-    <state width="1166" height="209" key="GridCell.Tab.1.center" timestamp="1590599880198">
+    <state width="1166" height="243" key="GridCell.Tab.0.right/72.0.1208.800@72.0.1208.800" timestamp="1591879825613" />
+    <state width="1166" height="243" key="GridCell.Tab.1.bottom" timestamp="1591879825398">
       <screen x="72" y="0" width="1208" height="800" />
     </state>
-    <state width="1166" height="209" key="GridCell.Tab.1.center/72.0.1208.800@72.0.1208.800" timestamp="1590599880198" />
-    <state width="1166" height="209" key="GridCell.Tab.1.left" timestamp="1590599880198">
+    <state width="1166" height="243" key="GridCell.Tab.1.bottom/72.0.1208.800@72.0.1208.800" timestamp="1591879825398" />
+    <state width="1166" height="243" key="GridCell.Tab.1.center" timestamp="1591879825398">
       <screen x="72" y="0" width="1208" height="800" />
     </state>
-    <state width="1166" height="209" key="GridCell.Tab.1.left/72.0.1208.800@72.0.1208.800" timestamp="1590599880198" />
-    <state width="1166" height="209" key="GridCell.Tab.1.right" timestamp="1590599880198">
+    <state width="1166" height="243" key="GridCell.Tab.1.center/72.0.1208.800@72.0.1208.800" timestamp="1591879825398" />
+    <state width="1166" height="243" key="GridCell.Tab.1.left" timestamp="1591879825398">
       <screen x="72" y="0" width="1208" height="800" />
     </state>
-    <state width="1166" height="209" key="GridCell.Tab.1.right/72.0.1208.800@72.0.1208.800" timestamp="1590599880198" />
-    <state x="178" y="42" key="SettingsEditor" timestamp="1590594217036">
+    <state width="1166" height="243" key="GridCell.Tab.1.left/72.0.1208.800@72.0.1208.800" timestamp="1591879825398" />
+    <state width="1166" height="243" key="GridCell.Tab.1.right" timestamp="1591879825398">
       <screen x="72" y="0" width="1208" height="800" />
     </state>
-    <state x="178" y="42" key="SettingsEditor/72.0.1208.800@72.0.1208.800" timestamp="1590594217036" />
+    <state width="1166" height="243" key="GridCell.Tab.1.right/72.0.1208.800@72.0.1208.800" timestamp="1591879825398" />
+    <state x="178" y="42" key="SettingsEditor" timestamp="1591777553187">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state x="178" y="42" key="SettingsEditor/72.0.1208.800@72.0.1208.800" timestamp="1591777553187" />
+    <state x="339" y="122" width="672" height="678" key="search.everywhere.popup" timestamp="1591877556744">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state x="339" y="122" width="672" height="678" key="search.everywhere.popup/72.0.1208.800@72.0.1208.800" timestamp="1591877556744" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cal_feature/MousefeaGet.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -499,10 +313,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/feature$FileOp.coverage" NAME="FileOp Coverage Results" MODIFIED="1591877746763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cal_feature" />
     <SUITE FILE_PATH="coverage/feature$kNN_al.coverage" NAME="kNN_al Coverage Results" MODIFIED="1591692761906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification" />
-    <SUITE FILE_PATH="coverage/feature$MousefeaGet.coverage" NAME="MousefeaGet Coverage Results" MODIFIED="1590647815840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/feature$attention_level_main.coverage" NAME="attention_level_main Coverage Results" MODIFIED="1590658269577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/feature$FileOp.coverage" NAME="FileOp Coverage Results" MODIFIED="1590567730394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/feature$MousefeaGet.coverage" NAME="MousefeaGet Coverage Results" MODIFIED="1591879825313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cal_feature" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -512,168 +326,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://D:/ProgramData/Anaconda3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7130">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/sklearn/preprocessing/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/33.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppDynamicsJob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2122">
-          <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/dd.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/mouse_entrop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/fake.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/FileOp.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/feaEx.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/click2move.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classification/KNN.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/SimpleFusion.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/txt_rename.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/feaGet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3933" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/bot_gau.mat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/attention_level_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/keyFea.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-828" />
-      </provider>
-    </entry>
-    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/sklearn/utils/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/botfeature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/CalFeature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="299" column="4" selection-start-line="299" selection-start-column="4" selection-end-line="299" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cal_feature/MousefeaGet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="85" column="52" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
-          <folding>
-            <element signature="e#29#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ifa/ifa.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ifa/fa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classification/kNN_al.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-897">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fcm/fcm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2208">
-          <caret line="96" column="29" lean-forward="true" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

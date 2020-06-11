@@ -6,6 +6,25 @@ import numpy
 from cal_feature import FileOp, FileOpBot, CalFeature
 
 
+def data_top(HumanData, top_num):
+    human_data=[]
+    for data in HumanData:
+        cnt=1
+        tmp_data=[]
+        it=iter(data)
+        for line in it:
+            tmp_data.append(line)
+            if line.startswith("mouse") and len(line.split())>4:
+                cnt+=1
+                if cnt>top_num:
+                    break
+        # 使mouseup和mousedown对应
+        tmp_data.append(next(it))
+        human_data.append(tmp_data)
+    return human_data
+
+
+
 def HumanSectionData(FilePath):
     AllUsers, AllNames = FileOp.ReadDataFromTextFile(FilePath)
     HumanData = []
@@ -13,7 +32,10 @@ def HumanSectionData(FilePath):
     for i in range(len(AllUsers)):  # 将Alluser多层变为一层[[],...[]]到[]
         HumanData.extend(AllUsers[i])  # 注意extend和append区别
         label_level.extend(AllNames[i])
-    data, label = data_seg(HumanData)
+
+    #取文件的前n个点击数据,其中包括最后的点为mouseup采集点
+    human_data=data_top(HumanData,2)
+    data, label = data_seg(human_data)
     HumanOperating, HumanOpType = CalFeature.DataFormation(data)
     idchosen = numpy.where(HumanOpType == 2)[0]  # np.where()
     # HumanOperatingChosen = [HumanOperating[x] for x in idchosen]  # 链式推导式，n*n*4 ,list
@@ -265,8 +287,7 @@ def how(listType, t, n, m):
 
 
 if __name__ == '__main__':
-    a, b = HumanSectionData("D:\data\pc")
-
+    a, b = HumanSectionData("D:\datatest\pc")
     print(a)
     print(b)
     print(len(a))
